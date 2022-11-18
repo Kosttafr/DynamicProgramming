@@ -38,10 +38,10 @@ class Poisson:
         for key in self.vals:
             self.vals[key] /= summer
 
-    def f(self, n):
-        try:
-            ret_value = self.vals[n]
-        except KeyError:
-            ret_value = 0
-        finally:
-            return ret_value
+    # def f(self, n):
+    #     try:
+    #         ret_value = self.vals[n]
+    #     except KeyError:
+    #         ret_value = 0
+    #     finally:
+    #         return ret_value
